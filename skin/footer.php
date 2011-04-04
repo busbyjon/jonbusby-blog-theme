@@ -1,1 +1,0 @@
-&copy; Jon Busby 2011
