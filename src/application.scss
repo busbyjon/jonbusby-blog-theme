@@ -1,0 +1,129 @@
+$accent1 :  #FF7400;
+$accent2 :	#009999;
+$accent3 :  #FF9640;
+$accent4 :  #FFB273;
+$icons : 'icons.png';
+
+$sprite-default-size : 40px;
+
+
+@import "blueprint";
+
+@import "compass/utilities/sprites";
+
+@import "compass/css3/font-face";
+
+
+#wrapper {
+  @include container;
+  margin-top: 20px;
+  border: 1px solid;
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+
+  #header { 
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    h1 {
+      @include prepend(1);
+      @include column(8);
+      font-size: 45px;
+      font-family: 'Cabin Sketch', arial, serif; 
+      color: $accent1;
+      
+    }
+    #social {
+      @include column(15, true);
+      font-family: 'Neucha', arial, serif;
+      li {
+        @include column(5);
+      }
+      
+      #email {
+        @include column(5,true);
+      }
+      
+      h2 {
+  	    color: $accent1;
+  	    text-transform: uppercase;
+  	    font-size:18px;
+  	    line-height: 24px;
+  	    padding-left : image-width($icons) / 3 + 10;     
+      }
+      
+      p {
+    	  color: $accent1;
+        padding-left : image-width($icons) / 3 + 10;     
+      }
+      #twitter-sprite {
+        @include sprite-img($icons, 2);
+        display: block;
+        float:left;
+      }
+      #linkedin-sprite {
+        @include  sprite-img($icons, 1);
+        display: block;
+        float:left;
+      }
+      #email-sprite {
+        @include  sprite-img($icons, 3);
+        display: block;
+        float:left;
+      }
+
+      #twitter-sprite:hover {
+        @include sprite-position(2,2);
+      }
+      #linkedin-sprite:hover {
+        @include  sprite-position(1,2);
+      }
+      #email-sprite:hover {
+        @include sprite-position(3,2);
+      }
+      
+    }
+  }
+  
+  #main {
+    font-size: 14px;
+    #content {
+      @include prepend(1);
+      @include column (16);
+      @include colborder();
+      h3 a {
+        font-family: 'Neucha', arial, serif;
+        font-size: 28px;
+        color: $accent2;
+        line-height: 34px;
+        text-decoration: none;
+      }
+      h4 {
+        font-family: 'Neucha', arial, serif;
+        font-size: 20px;
+        color: $accent3;
+        line-height: 30px;
+        margin-bottom: 5px;
+      }
+      h4 a {
+        color: $accent3;
+        line-height: 40px;
+        margin-bottom: 5px;
+        text-decoration: none;
+      }
+          
+    }
+    #sidebar {
+      @include column (6, true);
+    }
+    
+  }
+  
+  #footer {
+    @include column (24, true);
+    font-family: 'Neucha', arial, serif;
+    text-align: center;
+  }
+  
+}
+
+
