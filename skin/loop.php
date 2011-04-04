@@ -9,6 +9,7 @@
 		<p>
 			<?php the_excerpt(); ?>
 		</p>
+	<br/>
 		<p> Filed under <?php the_category(', ') ?> </p>
 				<h4>
 					<a class='read-more' href='<?php the_permalink(); ?>'>more... </a>
@@ -23,8 +24,9 @@
 	  Posted on <?php the_time('l, F jS, Y') ?>
 	</h4>
 	<p>
-		<?php the_excerpt(); ?>
+		<?php the_content(); ?>
 	</p>
+	<br/>
 	<p> Filed under <?php the_category(', ') ?> </p>
 			<h4>
 				<a class='read-more' href='<?php the_permalink(); ?>'>more... </a>
