@@ -7,15 +7,16 @@
   *zoom: 1;
   margin-top: 20px;
   border: 1px solid;
-  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+  font-family: Trebuchet MS,Verdana;
+  color: gray;
 }
-/* line 23, ../src/application.scss */
+/* line 24, ../src/application.scss */
 #wrapper #header {
   height: 50px;
   margin-bottom: 20px;
   margin-top: 10px;
 }
-/* line 27, ../src/application.scss */
+/* line 28, ../src/application.scss */
 #wrapper #header h1 {
   padding-left: 40px;
   display: inline;
@@ -30,7 +31,7 @@
 * html #wrapper #header h1 {
   overflow-x: hidden;
 }
-/* line 35, ../src/application.scss */
+/* line 36, ../src/application.scss */
 #wrapper #header #social {
   display: inline;
   float: left;
@@ -42,23 +43,23 @@
 * html #wrapper #header #social {
   overflow-x: hidden;
 }
-/* line 39, ../src/application.scss */
+/* line 40, ../src/application.scss */
 #wrapper #header #social li {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 190px;
-  -webkit-transition: all 1s linear;
 }
 /* line 138, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #wrapper #header #social li {
   overflow-x: hidden;
 }
 /* line 43, ../src/application.scss */
-#wrapper #header #social li:hover {
-  text-shadow: 0.2px 0.2px 0.5px #000;
+#wrapper #header #social a {
+  position: absolute;
+  width: 180px !important;
 }
-/* line 47, ../src/application.scss */
+/* line 48, ../src/application.scss */
 #wrapper #header #social #email {
   display: inline;
   float: left;
@@ -69,7 +70,7 @@
 * html #wrapper #header #social #email {
   overflow-x: hidden;
 }
-/* line 51, ../src/application.scss */
+/* line 52, ../src/application.scss */
 #wrapper #header #social h2 {
   color: #009999;
   text-transform: uppercase;
@@ -77,24 +78,24 @@
   line-height: 24px;
   padding-left: 50px;
 }
-/* line 59, ../src/application.scss */
+/* line 60, ../src/application.scss */
 #wrapper #header #social p {
   color: #009999;
   padding-left: 50px;
 }
-/* line 63, ../src/application.scss */
+/* line 64, ../src/application.scss */
 #wrapper #header #social #twitter-sprite {
-  background: url('../images/icons.png?1301956635') no-repeat;
+  background: url('../images/icons.png?1301987192') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
-  background-position: -40px 0px;
+  background-position: 0px -160px;
   display: block;
   float: left;
 }
-/* line 68, ../src/application.scss */
+/* line 69, ../src/application.scss */
 #wrapper #header #social #linkedin-sprite {
-  background: url('../images/icons.png?1301956635') no-repeat;
+  background: url('../images/icons.png?1301987192') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -102,27 +103,27 @@
   display: block;
   float: left;
 }
-/* line 73, ../src/application.scss */
+/* line 74, ../src/application.scss */
 #wrapper #header #social #email-sprite {
-  background: url('../images/icons.png?1301956635') no-repeat;
+  background: url('../images/icons.png?1301987192') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
-  background-position: -80px 0px;
+  background-position: 0px -80px;
   display: block;
   float: left;
 }
-/* line 79, ../src/application.scss */
+/* line 80, ../src/application.scss */
 #wrapper #header #social #twitter-sprite:hover {
-  background-position: -40px -40px;
+  background-position: 0px -200px;
 }
-/* line 82, ../src/application.scss */
+/* line 83, ../src/application.scss */
 #wrapper #header #social #linkedin-sprite:hover {
   background-position: 0px -40px;
 }
-/* line 85, ../src/application.scss */
+/* line 86, ../src/application.scss */
 #wrapper #header #social #email-sprite:hover {
-  background-position: -80px -40px;
+  background-position: 0px -120px;
 }
 /* line 92, ../src/application.scss */
 #wrapper #main {
@@ -166,7 +167,34 @@
   margin-bottom: 5px;
   text-decoration: none;
 }
-/* line 120, ../src/application.scss */
+/* line 119, ../src/application.scss */
+#wrapper #main #content .wp-caption {
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+/* line 124, ../src/application.scss */
+#wrapper #main #content .alignleft, #wrapper #main #content img.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+/* line 131, ../src/application.scss */
+#wrapper #main #content .wp-caption-text {
+  font-size: 12px;
+  text-align: center;
+}
+/* line 136, ../src/application.scss */
+#wrapper #main #content blockquote {
+  font-style: italic;
+  padding: 25px;
+  font-family: 'Times New Roman';
+}
+/* line 142, ../src/application.scss */
+#wrapper #main #content ul, #wrapper #main #content ol {
+  margin-left: 40px;
+}
+/* line 147, ../src/application.scss */
 #wrapper #main #sidebar {
   display: inline;
   float: left;
@@ -177,7 +205,7 @@
 * html #wrapper #main #sidebar {
   overflow-x: hidden;
 }
-/* line 126, ../src/application.scss */
+/* line 153, ../src/application.scss */
 #wrapper #footer {
   display: inline;
   float: left;
