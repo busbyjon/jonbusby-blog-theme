@@ -42,18 +42,23 @@
 * html #wrapper #header #social {
   overflow-x: hidden;
 }
-/* line 38, ../src/application.scss */
+/* line 39, ../src/application.scss */
 #wrapper #header #social li {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 190px;
+  -webkit-transition: all 1s linear;
 }
 /* line 138, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #wrapper #header #social li {
   overflow-x: hidden;
 }
-/* line 42, ../src/application.scss */
+/* line 43, ../src/application.scss */
+#wrapper #header #social li:hover {
+  text-shadow: 0.2px 0.2px 0.5px #000;
+}
+/* line 47, ../src/application.scss */
 #wrapper #header #social #email {
   display: inline;
   float: left;
@@ -64,22 +69,22 @@
 * html #wrapper #header #social #email {
   overflow-x: hidden;
 }
-/* line 46, ../src/application.scss */
+/* line 51, ../src/application.scss */
 #wrapper #header #social h2 {
-  color: #ff7400;
+  color: #009999;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 24px;
   padding-left: 50px;
 }
-/* line 54, ../src/application.scss */
+/* line 59, ../src/application.scss */
 #wrapper #header #social p {
-  color: #ff7400;
+  color: #009999;
   padding-left: 50px;
 }
-/* line 58, ../src/application.scss */
+/* line 63, ../src/application.scss */
 #wrapper #header #social #twitter-sprite {
-  background: url('../images/icons.png?1300650497') no-repeat;
+  background: url('../images/icons.png?1301956635') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -87,9 +92,9 @@
   display: block;
   float: left;
 }
-/* line 63, ../src/application.scss */
+/* line 68, ../src/application.scss */
 #wrapper #header #social #linkedin-sprite {
-  background: url('../images/icons.png?1300650497') no-repeat;
+  background: url('../images/icons.png?1301956635') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -97,9 +102,9 @@
   display: block;
   float: left;
 }
-/* line 68, ../src/application.scss */
+/* line 73, ../src/application.scss */
 #wrapper #header #social #email-sprite {
-  background: url('../images/icons.png?1300650497') no-repeat;
+  background: url('../images/icons.png?1301956635') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -107,23 +112,23 @@
   display: block;
   float: left;
 }
-/* line 74, ../src/application.scss */
+/* line 79, ../src/application.scss */
 #wrapper #header #social #twitter-sprite:hover {
   background-position: -40px -40px;
 }
-/* line 77, ../src/application.scss */
+/* line 82, ../src/application.scss */
 #wrapper #header #social #linkedin-sprite:hover {
   background-position: 0px -40px;
 }
-/* line 80, ../src/application.scss */
+/* line 85, ../src/application.scss */
 #wrapper #header #social #email-sprite:hover {
   background-position: -80px -40px;
 }
-/* line 87, ../src/application.scss */
+/* line 92, ../src/application.scss */
 #wrapper #main {
   font-size: 14px;
 }
-/* line 89, ../src/application.scss */
+/* line 94, ../src/application.scss */
 #wrapper #main #content {
   padding-left: 40px;
   display: inline;
@@ -138,7 +143,7 @@
 * html #wrapper #main #content {
   overflow-x: hidden;
 }
-/* line 93, ../src/application.scss */
+/* line 98, ../src/application.scss */
 #wrapper #main #content h3 a {
   font-family: 'Neucha', arial, serif;
   font-size: 28px;
@@ -146,7 +151,7 @@
   line-height: 34px;
   text-decoration: none;
 }
-/* line 100, ../src/application.scss */
+/* line 105, ../src/application.scss */
 #wrapper #main #content h4 {
   font-family: 'Neucha', arial, serif;
   font-size: 20px;
@@ -154,7 +159,14 @@
   line-height: 30px;
   margin-bottom: 5px;
 }
-/* line 108, ../src/application.scss */
+/* line 112, ../src/application.scss */
+#wrapper #main #content h4 a {
+  color: #ff9640;
+  line-height: 40px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+/* line 120, ../src/application.scss */
 #wrapper #main #sidebar {
   display: inline;
   float: left;
@@ -165,7 +177,7 @@
 * html #wrapper #main #sidebar {
   overflow-x: hidden;
 }
-/* line 114, ../src/application.scss */
+/* line 126, ../src/application.scss */
 #wrapper #footer {
   display: inline;
   float: left;
