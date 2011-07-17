@@ -149,6 +149,10 @@
   font-size: 12px;
 }
 /* line 102, ../src/application.scss */
+#wrapper #main #content p {
+  margin-bottom: 10px;
+}
+/* line 105, ../src/application.scss */
 #wrapper #main #content h3 a {
   font-family: 'Neucha', arial, serif;
   font-size: 28px;
@@ -156,7 +160,7 @@
   line-height: 34px;
   text-decoration: none;
 }
-/* line 109, ../src/application.scss */
+/* line 112, ../src/application.scss */
 #wrapper #main #content h4 {
   font-family: 'Neucha', arial, serif;
   font-size: 20px;
@@ -164,45 +168,45 @@
   line-height: 30px;
   margin-bottom: 5px;
 }
-/* line 115, ../src/application.scss */
+/* line 118, ../src/application.scss */
 #wrapper #main #content h4 .read-more {
   font-size: 16px;
 }
-/* line 118, ../src/application.scss */
+/* line 121, ../src/application.scss */
 #wrapper #main #content h4 a {
   color: #ff9640;
   line-height: 40px;
   margin-bottom: 5px;
   text-decoration: none;
 }
-/* line 126, ../src/application.scss */
+/* line 129, ../src/application.scss */
 #wrapper #main #content .wp-caption {
   margin-top: 10px;
   margin-bottom: 24px;
 }
-/* line 131, ../src/application.scss */
+/* line 134, ../src/application.scss */
 #wrapper #main #content .alignleft, #wrapper #main #content img.alignleft {
   display: inline;
   float: left;
   margin-right: 20px;
   margin-top: 4px;
 }
-/* line 138, ../src/application.scss */
+/* line 141, ../src/application.scss */
 #wrapper #main #content .wp-caption-text {
   font-size: 12px;
   text-align: center;
 }
-/* line 143, ../src/application.scss */
+/* line 146, ../src/application.scss */
 #wrapper #main #content blockquote {
   font-style: italic;
   padding: 25px;
   font-family: 'Times New Roman';
 }
-/* line 149, ../src/application.scss */
+/* line 152, ../src/application.scss */
 #wrapper #main #content ul, #wrapper #main #content ol {
   margin-left: 40px;
 }
-/* line 154, ../src/application.scss */
+/* line 157, ../src/application.scss */
 #wrapper #main #sidebar {
   display: inline;
   float: left;
@@ -213,7 +217,7 @@
 * html #wrapper #main #sidebar {
   overflow-x: hidden;
 }
-/* line 161, ../src/application.scss */
+/* line 164, ../src/application.scss */
 #wrapper #footer {
   display: inline;
   float: left;
