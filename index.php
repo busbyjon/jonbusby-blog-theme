@@ -15,12 +15,12 @@
 					<p>twitter.com/busbyjon</p>
 				</li>
 				<li id='linkedin'>
-					<a id='linkedin-sprite' href='http://www.linkedin.com/busbyjon'></a>
+					<a id='linkedin-sprite' href='http://www.linkedin.com/in/jonbusby'></a>
 					<h2>Linked In</h2>
 					<p>linkedin.com/busbyjon</p>
 				</li>
 				<li id='email'>
-					<a id='email-sprite' href='mailto:jon@jonbusby.co.uk'></a>
+					<a id='email-sprite' href='mailto:busbyjon@gmail.com'></a>
 					<h2>Email</h2>
 					<p>jon@jonbusby.co.uk</p>
 				</li>
