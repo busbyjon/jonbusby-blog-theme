@@ -17,7 +17,7 @@
 				<li id='linkedin'>
 					<a id='linkedin-sprite' href='http://www.linkedin.com/in/jonbusby'></a>
 					<h2>Linked In</h2>
-					<p>linkedin.com/busbyjon</p>
+					<p>linkedin.com/in/jonbusby</p>
 				</li>
 				<li id='email'>
 					<a id='email-sprite' href='mailto:busbyjon@gmail.com'></a>
