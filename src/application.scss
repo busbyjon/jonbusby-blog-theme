@@ -95,6 +95,10 @@ $sprite-default-size : 40px;
       @include prepend(1);
       @include column (16);
       @include colborder();
+
+      .category {
+          font-size:12px;
+      }
       h3 a {
         font-family: 'Neucha', arial, serif;
         font-size: 28px;
@@ -108,12 +112,15 @@ $sprite-default-size : 40px;
         color: $accent3;
         line-height: 30px;
         margin-bottom: 5px;
-      }
-      h4 a {
-        color: $accent3;
-        line-height: 40px;
-        margin-bottom: 5px;
-        text-decoration: none;
+        .read-more {
+          font-size:16px;
+        }
+        a {
+          color: $accent3;
+          line-height: 40px;
+          margin-bottom: 5px;
+          text-decoration: none;
+        }
       }
       
       .wp-caption {
@@ -148,6 +155,7 @@ $sprite-default-size : 40px;
       @include column (6, true);
     }
     
+
   }
   
   #footer {

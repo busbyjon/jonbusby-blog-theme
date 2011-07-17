@@ -85,7 +85,7 @@
 }
 /* line 64, ../src/application.scss */
 #wrapper #header #social #twitter-sprite {
-  background: url('../images/icons.png?1301987192') no-repeat;
+  background: url('../images/icons.png?1310929016') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -95,7 +95,7 @@
 }
 /* line 69, ../src/application.scss */
 #wrapper #header #social #linkedin-sprite {
-  background: url('../images/icons.png?1301987192') no-repeat;
+  background: url('../images/icons.png?1310929016') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -105,7 +105,7 @@
 }
 /* line 74, ../src/application.scss */
 #wrapper #header #social #email-sprite {
-  background: url('../images/icons.png?1301987192') no-repeat;
+  background: url('../images/icons.png?1310929016') no-repeat;
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -144,7 +144,11 @@
 * html #wrapper #main #content {
   overflow-x: hidden;
 }
-/* line 98, ../src/application.scss */
+/* line 99, ../src/application.scss */
+#wrapper #main #content .category {
+  font-size: 12px;
+}
+/* line 102, ../src/application.scss */
 #wrapper #main #content h3 a {
   font-family: 'Neucha', arial, serif;
   font-size: 28px;
@@ -152,7 +156,7 @@
   line-height: 34px;
   text-decoration: none;
 }
-/* line 105, ../src/application.scss */
+/* line 109, ../src/application.scss */
 #wrapper #main #content h4 {
   font-family: 'Neucha', arial, serif;
   font-size: 20px;
@@ -160,41 +164,45 @@
   line-height: 30px;
   margin-bottom: 5px;
 }
-/* line 112, ../src/application.scss */
+/* line 115, ../src/application.scss */
+#wrapper #main #content h4 .read-more {
+  font-size: 16px;
+}
+/* line 118, ../src/application.scss */
 #wrapper #main #content h4 a {
   color: #ff9640;
   line-height: 40px;
   margin-bottom: 5px;
   text-decoration: none;
 }
-/* line 119, ../src/application.scss */
+/* line 126, ../src/application.scss */
 #wrapper #main #content .wp-caption {
   margin-top: 10px;
   margin-bottom: 24px;
 }
-/* line 124, ../src/application.scss */
+/* line 131, ../src/application.scss */
 #wrapper #main #content .alignleft, #wrapper #main #content img.alignleft {
   display: inline;
   float: left;
   margin-right: 20px;
   margin-top: 4px;
 }
-/* line 131, ../src/application.scss */
+/* line 138, ../src/application.scss */
 #wrapper #main #content .wp-caption-text {
   font-size: 12px;
   text-align: center;
 }
-/* line 136, ../src/application.scss */
+/* line 143, ../src/application.scss */
 #wrapper #main #content blockquote {
   font-style: italic;
   padding: 25px;
   font-family: 'Times New Roman';
 }
-/* line 142, ../src/application.scss */
+/* line 149, ../src/application.scss */
 #wrapper #main #content ul, #wrapper #main #content ol {
   margin-left: 40px;
 }
-/* line 147, ../src/application.scss */
+/* line 154, ../src/application.scss */
 #wrapper #main #sidebar {
   display: inline;
   float: left;
@@ -205,7 +213,7 @@
 * html #wrapper #main #sidebar {
   overflow-x: hidden;
 }
-/* line 153, ../src/application.scss */
+/* line 161, ../src/application.scss */
 #wrapper #footer {
   display: inline;
   float: left;

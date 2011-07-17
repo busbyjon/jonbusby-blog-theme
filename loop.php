@@ -10,7 +10,7 @@
 			<?php the_excerpt(); ?>
 		</p>
 	<br/>
-		<p> Filed under <?php the_category(', ') ?> </p>
+		<p class='category'>  This post has stuff to do with <?php the_category(', ') ?> </p>
 				<h4>
 					<a class='read-more' href='<?php the_permalink(); ?>'>more... </a>
 				</h4>
@@ -27,9 +27,11 @@
 		<?php the_content(); ?>
 	</p>
 	<br/>
-	<p> Filed under <?php the_category(', ') ?> </p>
+	<p class='category'> This post has stuff to do with <?php the_category(', ') ?> </p>
+		<?php if (!is_single($post)):?>
 			<h4>
-				<a class='read-more' href='<?php the_permalink(); ?>'>more... </a>
+				<a class='read-more' href='<?php the_permalink(); ?>'>Read more... </a>
 			</h4>
+	<?php endif ?>
 	<?php endwhile; ?>
 <?php endif; ?>

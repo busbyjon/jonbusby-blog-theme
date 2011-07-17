@@ -33,4 +33,12 @@
 <![endif]-->
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/stylesheets/application.css" type="text/css" media="screen, projection" />
 	<!-- end css -->
+	<?php
+  	/* Always have wp_head() just before the closing </head>
+  	 * tag of your theme, or you will break many plugins, which
+  	 * generally use this hook to add elements to <head> such
+  	 * as styles, scripts, and meta tags.
+  	 */
+  	wp_head();
+  	?>
 </head>
