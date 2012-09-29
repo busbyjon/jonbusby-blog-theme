@@ -1,0 +1,58 @@
+/*
+Syntax error: File to import not found or unreadable: blueprint.
+              Load path: /Users/jonbusby/Documents/GitHub/jonbusby-blog
+        on line 10 of src/application.scss
+
+5: $icons : 'icons.png';
+6: 
+7: $sprite-default-size : 40px;
+8: 
+9: 
+10: @import "blueprint";
+11: 
+12: @import "compass/utilities/sprites";
+13: 
+14: @import "compass/css3/font-face";
+15: 
+
+Backtrace:
+src/application.scss:10
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:340:in `update_stylesheet'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `each'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/plugin/compiler.rb:234:in `watch'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/plugin.rb:107:in `method_missing'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/exec.rb:431:in `watch_or_update'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/exec.rb:302:in `process_result'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/exec.rb:41:in `parse'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/lib/sass/exec.rb:21:in `parse!'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.1/bin/sass:8:in `<top (required)>'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/bin/sass:23:in `load'
+/Users/jonbusby/.rvm/gems/ruby-1.9.3-p194/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: blueprint.\A               Load path: /Users/jonbusby/Documents/GitHub/jonbusby-blog\A         on line 10 of src/application.scss\A \A 5: $icons : 'icons.png';\A 6: \A 7: $sprite-default-size : 40px;\A 8: \A 9: \A 10: @import \"blueprint\";\A 11: \A 12: @import \"compass/utilities/sprites\";\A 13: \A 14: @import \"compass/css3/font-face\";\A 15: "; }

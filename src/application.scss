@@ -21,6 +21,11 @@ $sprite-default-size : 40px;
   font-family: Trebuchet MS,Verdana;
   color: gray;
 
+	a	{
+		color: $accent1;
+		text-decoration: none;
+	}
+
   #header { 
     height: 50px;
     margin-bottom: 20px;
@@ -156,6 +161,9 @@ $sprite-default-size : 40px;
     }
     #sidebar {
       @include column (6, true);
+		li {
+			list-style:none;
+		}
     }
     
 
