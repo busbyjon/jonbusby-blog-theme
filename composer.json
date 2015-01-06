@@ -1,4 +1,5 @@
 {
     "name": "wpackagist-theme/jonbusby-blog",
-    "description": "Jon Busby's Wordpress Blog Theme"
+    "description": "Jon Busby's Wordpress Blog Theme",
+    "type":"wordpress-theme"
 }
