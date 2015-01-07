@@ -1,59 +1,21 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<?php get_template_part('templates/page', 'header'); ?>
 
-<?php get_header(); ?>
+<?php if (!have_posts()) : ?>
+  <div class="alert alert-warning">
+    <?php _e('Sorry, no results were found.', 'roots'); ?>
+  </div>
+  <?php get_search_form(); ?>
+<?php endif; ?>
 
-<body id="index" onload="">
-<div id="wrapper">
-	<div id="header">
-		<h1 id="jon_busby">Jon Busby</h1>
-		<div id='social'>
-			<ul>
-				<li id='twitter'>
-					<a id='twitter-sprite' href='http://www.twitter.com/busbyjon'></a>
-					<h2>Twitter</h2>
-					<p>twitter.com/busbyjon</p>
-				</li>
-				<li id='linkedin'>
-					<a id='linkedin-sprite' href='http://www.linkedin.com/in/jonbusby'></a>
-					<h2>Linked In</h2>
-					<p>linkedin.com/jonbusby</p>
-				</li>
-				<li id='email'>
-					<a id='email-sprite' href='mailto:busbyjon@gmail.com'></a>
-					<h2>Email</h2>
-					<p>busbyjon@gmail.com</p>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="main">
-		<div id="content">
-		
-      <?php get_template_part( 'loop', 'index' ); ?>
-      
-		</div>
-		<div id="sidebar">
-		
-      <?php get_sidebar(); ?>
-      
-		</div>
-	</div>
-	<div id="footer">
-	
-	<?php get_footer(); ?>
+<?php while (have_posts()) : the_post(); ?>
+  <?php get_template_part('templates/content', get_post_format()); ?>
+<?php endwhile; ?>
 
-	</div>
-</div>
-
-<?php
-	/* Always have wp_footer() just before the closing </body>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to reference JavaScript files.
-	 */
-
-	wp_footer();
-?>
-</body>
-</html>
-
+<?php if ($wp_query->max_num_pages > 1) : ?>
+  <nav class="post-nav">
+    <ul class="pager">
+      <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></li>
+      <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></li>
+    </ul>
+  </nav>
+<?php endif; ?>
